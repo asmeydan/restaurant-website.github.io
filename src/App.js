@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Category from "./components/Category";
+import { Routes, Route } from "react-router-dom";
+import Yemekler from "./components/categories/Yemekler";
+import Tatlılar from "./components/categories/Tatlılar";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" h-screen flex flex-col">
+      <Header />
+      <div className=" flex-auto flex">
+        <Category />
+        <div className=" w-full">
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="yemekler" element={<Yemekler/>}/>
+            <Route path="tatlilar" element={<Tatlılar/>}/>
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }
