@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/restaurant-website.github.io/static/css/main.88954052.css",
+    "main.js": "/restaurant-website.github.io/static/js/main.249374fb.js",
+    "static/js/787.eb402edd.chunk.js": "/restaurant-website.github.io/static/js/787.eb402edd.chunk.js",
+    "static/media/çarşı_kebap.jpg": "/restaurant-website.github.io/static/media/çarşı_kebap.b103ef0ddd6711147eb1.jpg",
+    "static/media/pide.jpg": "/restaurant-website.github.io/static/media/pide.88515f56934aa7584b99.jpg",
+    "static/media/adana_kebap.jpg": "/restaurant-website.github.io/static/media/adana_kebap.7ef6bdab1f2b48a7a879.jpg",
+    "static/media/ezogelin_çorbası.jpg": "/restaurant-website.github.io/static/media/ezogelin_çorbası.bd201d6aaf89dcdb4867.jpg",
+    "static/media/mercimek_çorbası.jpg": "/restaurant-website.github.io/static/media/mercimek_çorbası.602ad32127084bba6f89.jpg",
+    "static/media/lahmacun.jpg": "/restaurant-website.github.io/static/media/lahmacun.48b1cfac9350c212db51.jpg",
+    "index.html": "/restaurant-website.github.io/index.html",
+    "main.88954052.css.map": "/restaurant-website.github.io/static/css/main.88954052.css.map",
+    "main.249374fb.js.map": "/restaurant-website.github.io/static/js/main.249374fb.js.map",
+    "787.eb402edd.chunk.js.map": "/restaurant-website.github.io/static/js/787.eb402edd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88954052.css",
+    "static/js/main.249374fb.js"
+  ]
+}
